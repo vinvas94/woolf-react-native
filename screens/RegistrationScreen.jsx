@@ -52,11 +52,13 @@ const RegistrationScreen = () => {
               placeholder="Логін"
               value={login}
               onChangeText={login => setLogin(login)}
+              isSecure={isSecure}
             />
             <Input
               placeholder="Адреса електронної пошти"
               value={email}
               onChangeText={email => setEmail(email)}
+              isSecure={isSecure}
             />
             <Input
               placeholder="Пароль"

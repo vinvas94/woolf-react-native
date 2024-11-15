@@ -51,6 +51,7 @@ const LoginScreen = () => {
               placeholder="Адреса електронної пошти"
               value={email}
               onChangeText={handleEmailChange}
+              isSecure={isSecure}
             />
             <Input
               placeholder="Пароль"
